@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["var(--font-inter)"],
+        "space-grotesk": ["var(--font-space-grotesk)"],
+      },
       screens: {
         xs: "420px",
       },
